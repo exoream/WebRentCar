@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.section1{
+    background-image: url(A.jpg);
+    background-size: cover;
+}
+
+.navbar{
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 50%);
+    position: fixed;
+    width: 100%;
+    display: flex;
+}
+
+.brand{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Brush Script MT;
+}
+
+.navbarItem{
+    align-items: center;
+    margin: 0;
+    padding-left: 100px;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+}
+
+#a{
+    padding-left: 100px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.blue{
+    color: cornflowerblue;
+}
+
+.white{
+    color: white;
+}
+
+.container{
+    padding: 20% 25%;
+    line-height: 50px;
+}
+
+.brandJumbo{
+    font-size: 100px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 4px 8px rgba(45, 45, 45, 0.5);
+}
+
+.tex, .order{
+    font-size: 25px;
+    color: white;
+}
+
+.order{
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    background-color: rgba(31, 91, 211, 0.5);
+    border: solid white;
+    font-weight: bolder;
+}
+
+.why{
+    display: flex;
+    padding: 2.5%
+}
+
+.texW{
+    padding-left: 12.5%;
+    padding-right: 20%;
+    width: 25%;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+.texS{
+    padding-left: 20%;
+    color: black;
+    font-size: 40px;
+}
+
+
+.section2{
+    background-color: #87CEFA;
+    padding: 2.5%;
+}
+
+.section3, .sponsors{
+    background-color: rgb(241, 241, 241);
+    padding: 5%;
+}
+
+.sponsorList{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.sponsors{
+    background-color: rgb(241, 241, 241);
+    padding: 5%;
+}
+
+.car{
+    background-color: white;
+    margin: 5% 10%;
+    padding: 25px 50px;
+    display: flex;
+    align-items: center;
+    box-shadow: 6px 12px 5px gray;
+}
+
+.carInfo{
+    padding-left: 125px;
+    line-height: 75px;
+}
+
+hr{
+    height: 5px;
+    background-color: cornflowerblue;
+    margin-top: 50px;
+    width: 80%;
+}
+
+.carName, .price{
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+
+.price{
+    background-color: rgba(25, 100, 206, 0.708);
+    color: white;
+    padding: 10px 50px;
+}
+
+.header2{
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+}
+
+.footer{
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.copy{
+    color: white;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+}
+
+#b{
+    padding-right: 20px;
+}
+
+#c{
+    padding-right: 100px;
+}
+
+.copy, .social{
+    padding-left: 30%;
+}

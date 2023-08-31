@@ -1,0 +1,81 @@
+body{
+    background-image: url(gambar7.png);
+    background-size: cover;
+    margin: 0;
+}
+
+table{
+    border: none;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+thead{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.semua{
+    margin-top: 5%;
+}
+
+
+td:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+td:last-child{
+    border-radius: 0 10px 10px 0;
+}
+
+.brand{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Brush Script MT;
+}
+
+.navbarItem{
+    align-items: center;
+    margin: 0;
+    padding-left: 100px;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+}
+
+#a{
+    padding-left: 100px;
+}
+
+#link{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    margin: 0;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 50%);
+    width: 1;
+    display: flex;
+}
+
+#cu{
+    color: blue;
+}
+
+
+
